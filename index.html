@@ -2,894 +2,1176 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
 
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Adex</title>
-  <meta name="title" content="Adex">
-  <meta name="description" content="This is a business agency html template made by Tre">
+    <!-- Page Title -->
+    <title>Home - The Black Table</title>
+    <!--/ Page Title -->
 
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <meta name="author" content="Pe Themes">
+    <meta name="description" content="Multi-Concept Creative Portfolio Template">
+    <meta name="keywords" content="portfolio, agency, personal, creative">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link type="text/css" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
-</head>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/site-favicon.png">
+    <link rel="apple-touch-icon" href="img/site-favicon.png">
+    <!--/ Favicons -->
 
-<body>
+<body class="light" data-barba="wrapper">
 
-  <!-- 
-    - #HEADER
-  -->
+    <!-- Page Loader -->
+    <div class="page-loader columns">
 
-  <header class="header" data-header>
-    <div class="container">
-
-      <a href="#" class="logo">
-        <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home" class="logo-light">
-
-        <img src="./assets/images/logo-dark.svg" width="74" height="24" alt="Adex home" class="logo-dark">
-      </a>
-
-      <nav class="navbar" data-navbar>
-
-        <div class="navbar-top">
-          <a href="#" class="logo">
-            <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home">
-          </a>
-
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-          </button>
-        </div>
-
-        <ul class="navbar-list">
-
-          <li>
-            <a href="#" class="navbar-link">Home</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">About</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Projects</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Blog</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Contact</a>
-          </li>
-
-        </ul>
-
-        <div class="wrapper">
-          <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
-
-          <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
-        </div>
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-dribbble"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </nav>
-
-      <a href="#" class="btn btn-primary">Free Trial</a>
-
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button>
-
-      <div class="overlay" data-nav-toggler data-overlay></div>
+        <!-- Percentage (Don't Touch) -->
+        <div class="page-loader-percentage"></div>
+        <!-- Percentage (Don't Touch) -->
 
     </div>
-  </header>
+    <!--/ Page Loader -->
+
+    <!-- Page Transitions -->
+    <div class="nayla-page-transition columns up capt-bottom-left default">
+
+        <!-- Caption -->
+        <div class="page-transition-caption">
+            LOADING PLEASE WAIT..
+        </div>
+        <!--/ Caption -->
+
+    </div>
+    <!--/ Page Transitions -->
+
+    <!-- Mouse Cursor -->
+    <div id="mouseCursor" class="dot"></div>
+    <!--/ Mouse Cursor -->
+
+    <!-- Page -->
+    <div id="page">
+
+        <div class="menu-overlay"></div>
+
+        <!-- Site Header -->
+        <div id="header" class="site-header sticky light sticky-dark">
+
+            <!-- Header Wrapper -->
+            <div class="header-wrapper wrapper">
+
+                <div class="c-col-4 sm-6">
+
+                    <!--  Site Branding -->
+                    <div class="site-branding">
+
+                        <!--  Site Logo -->
+                        <div class="site-logo">
+
+                            <img alt="Site Logo (Dark)" class="dark-logo" src="img/site-logo.png">
+                            <img alt="Site Logo (Light)" class="light-logo" src="img/site-logo-light.png">
+
+                        </div>
+                        <!--/  Site Logo -->
+
+                        <!--  Sticky Logo -->
+                        <div class="sticky-logo">
+
+                            <img alt="Sticky Logo (Dark)" class="sticky-dark-logo" src="img/sticky_logo.png">
+                            <img alt="Sticky Logo (Light)" class="sticky-light-logo" src="img/sticky_logo_light.png">
+
+                        </div>
+                        <!--/  Sticky Logo -->
+
+                    </div>
+                    <!--  Site Branding -->
+
+                </div>
+
+                <div class="c-col-4 hide-mobile">
+
+                    <!--  Text -->
+                    <div class="text-wrapper hide-sticky align-center">
+
+                        <p>Energy meets innovation.</p>
+
+                    </div>
+                    <!--/ Text -->
+
+                </div>
+
+                <div class="c-col-4 sm-6 align-right">
+
+                    <!-- <div class="nayla-layout-switcher ls_switcher">
+                        <span class="active-follower"></span>
+
+                        <span data-value="dark" class="switch-light">LIGHT</span>
+                        <span data-value="light" class="switch-dark">DARK</span>
+
+                    </div> -->
+
+                    <!--  Menu Toggle -->
+                    <div class="menu-toggle">
+
+                        <div class="toggle-lines">
+
+                            <div class="toggle-line"></div>
+                            <div class="toggle-line"></div>
+                        </div>
+
+
+                    </div>
+                    <!--/  Menu Toggle -->
+
+                </div>
+
+            </div>
+            <!--/ Header Wrapper -->
+
+            <!-- Fullscreen Menu -->
+            <div id="site-navigation" class="fullscreen_menu fullscreen">
+
+                <div class="wrapper fullscreen-menu-wrapper">
+
+                    <div class="c-col-3 hide-mobile self-center">
+
+                        <!-- Menu -->
+                        <ul class="menu" data-animation="linesUp">
+
+                            <li><a href="#.">Learn</a></li>
+                            <li><a href="#.">Support</a></li>
+                            <li><a href="#.">Careers</a></li>
+
+                        </ul>
+                        <!--/ Menu -->
+
+                    </div>
+
+                    <div class="c-col-3 hide-mobile self-center">
+
+                        <!-- Menu -->
+                        <ul class="menu" data-animation="linesUp">
+
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="https://www.linkedin.com/in/theblacktablellc/" target="_blank">LinkedIn</a></li>
+
+                        </ul>
+                        <!--/ Menu -->
+
+                    </div>
+
+                    <div class="c-col-6 sm-12">
+
+                        <!-- Main Menu -->
+                        <ul class="menu main-menu">
+
+                            <li><a href="pages/works.html">Residental</a></li>
+                            <li><a href="pages/works.html">Commercial</a></li>
+                            <li><a href="pages/works.html">Transportation</a></li>
+                            <li><a href="pages/about-us.html">About</a></li>
+                            <li><a href="pages/services.html">Services</a></li>
+                            <li><a href="pages/team.html">Team</a></li>
+                            <li><a href="pages/blog.html">Insights</a></li>
+                            <li><a href="pages/contact.html">Contact</a></li>
+
+                        </ul>
+                        <!--/ Main Menu -->
+
+                    </div>
+
+                    <!-- Empty Column (For Spacing) -->
+                    <div class="c-col-2 hide-mobile"></div>
+                    <!--/ Empty Column (For Spacing) -->
+
+                    <!-- Fullscreen Menu Bottom -->
+                    <div class="fullscreen-menu-wrap-bottom">
+
+                        <div class="c-col-3 hide-mobile has-anim maskDown" data-delay=.2>
+
+                            <!-- Video -->
+                            <div class="nayla-video n-vimeo cursor-play play-lightbox" data-play="WATCH" data-controls="play progress mute fullscreen" data-autoplay=true data-muted=true data-loop=true>
+
+                                <div class="n-video" data-plyr-provider="vimeo" data-plyr-embed-id="852811469"></div>
+
+                            </div>
+                            <!--/ Video -->
+
+                        </div>
+
+                        <!-- Empty Column (For Spacing) -->
+                        <div class="c-col-3 hide-mobile"> </div>
+                        <!--/ Empty Column (For Spacing) -->
+
+                        <div class="c-col-3 sm-12 has-anim fadeDown" data-delay=.4>
+
+                            <!-- Button -->
+                            <div class="nayla-button underline icon-right" data-icon="arrow_outward">
+
+                                <a href="#">hello@theblacktablellc.com</a>
+
+                            </div>
+                            <!--/ Button -->
+
+                        </div>
+
+                        <div class="c-col-3 sm-12 has-anim fadeDown" data-delay=.4>
+
+                            <!-- Button -->
+                            <div class="nayla-button underline icon-right" data-icon="arrow_outward">
+
+                                <a href="#">+1 470 964 5422</a>
+
+                            </div>
+                            <!--/ Button -->
+
+                        </div>
+
+                    </div>
+                    <!--/ Fullscreen Menu Bottom -->
+
+                </div>
+
+            </div>
+            <!-- Fullscreen Menu -->
+
+        </div>
+        <!--/ Site Header -->
+
+
+        <!-- Main -->
+        <main id="primary" class="site-main" data-barba="container">
+
+            <!-- Page Content -->
+            <div id="content" class="page-content">
+
+
+                <div class="section fullscreen light">
+
+                    <div class="section-background">
+
+                        <!-- Video -->
+                        <div class="nayla-video n-vimeo no-interactions" data-controls="false" data-autoplay=true data-muted=true data-loop=true style="height: 100vh">
+
+                            <div class="n-video" data-plyr-provider="vimeo" data-plyr-embed-id="960860280"></div>
+
+                        </div>
+                        <!--/ Video -->
+
+                    </div>
+
+                    <div class="wrapper">
+
+                        <div class="c-col-12 align-bottom"></div>
+
+                        <div class="c-col-10 sm-12 col-center self-center">
+
+                            <div class="text-wrapper mobile-align-center">
+
+                                <h1 class="no-margin md-title has-anim-text charsUp">Empowering</h1>
+
+                            </div>
+
+                            <div class="text-wrapper mobile-align-center align-right">
+
+                                <h1 class="no-margin md-title has-anim-text charsUp">solutions for a</h1>
+
+                            </div>
+
+                            <div class="text-wrapper mobile-align-center align-center">
+
+                                <h1 class="no-margin md-title has-anim-text charsUp">connected world.</h1>
+
+                            </div>
+
+                        </div>
+
+                        <div class="c-col-6 sm-12 mobile-align-center align-bottom">
+
+                            <div class="nayla-button fill icon-right has-anim fadeUp" style="--bg: #1c1f24; --color: #191919" data-icon="arrow_outward">
+
+                                <a href="pages/contact.html">Let's talk</a>
+
+                            </div>
+
+                            <span class="empty-space" style="height: 35px"></span>
+                        </div>
+
+                        <div class="c-col-2 hide-mobile"></div>
+
+                        <div class="c-col-4 sm-12 sm-6 align-bottom mobile-align-center">
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h6 has-anim-text wordsUp fade"> Join the solar revolution and start saving money while protecting the environment.</p>
+
+                            </div>
+
+                            <span class="empty-space" style="height: 35px"></span>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="section">
+
+                    <div class="wrapper">
+
+                        <div class="c-col-12">
+
+                            <div class="text-wrapper">
+
+                                <p>WHO WE ARE?</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="wrapper">
+
+                        <div class="c-col-6 sm-12 self-center">
+
+                            <div class="text-wrapper" style="--width: 90%">
+
+                                <p class="text-h1">Your Premier Energy <br>& Transportation Partner</p>
+
+                                <p class="text-h6">
+                                    At The Black Table, our commitment to excellence, strategic technology innovation, and comprehensive approach makes us the optimal choice for your solar, renewable and sustainable endeavors. Discover what sets us apart as a leading energy company.</p>
+
+                            </div>
+
+                            <span class="empty-space" style="height: 50px"></span>
+
+                            <div class="nayla-button underline icon-right text-h6" data-icon="arrow_outward">
+
+                                <a href="pages/about-us.html">About Us</a>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="c-col-6 sm-12">
+
+                                          <!-- Video -->
+                                            <div class="nayla-video n-vimeo no-interactions" data-controls="false" data-autoplay=true data-muted=true data-loop=true>
+
+                                                <div class="n-video" data-plyr-provider="vimeo" data-plyr-embed-id="960860280">
+
+                                                </div>
+
+                                            </div>
+                                            <!--/ Video -->
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="section">
+
+
+                    <div class="wrapper">
+
+                        <div class="c-col-4 sm-12">
+
+                            <div class="text-wrapper">
+
+                                <p>WHAT CAN WE DO?</p>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="c-col-8 sm-12">
+
+                            <div class="nayla-dynamic-list vertical text-h1" data-animation="linesMask" data-scrub=true>
+
+                                <ul>
+                                    <li><a href="projects/project-snaps-app.html">Solar Installation</a>
+
+                                        <div class="list-image"><img src="img/agency_vertical_bw.jpg"></div>
+
+                                    </li>
+
+                                    <li><a href="#.">Energy Consultation</a>
+
+                                        <div class="list-image"><img src="img/ag_exp_squ_1.jpg"></div>
+
+                                    </li>
+
+                                    <!-- <li><a href="#.">Solar Monitorization</a>
+
+                                        <div class="list-image"><img src="img/ag_exp_squ_5.jpg"></div>
+
+                                    </li> -->
+
+                                    <li><a href="#.">Transport Solutions</a>
+
+                                        <div class="list-image"><img src="img/ag_exp_squ_2.jpg"></div>
+
+                                    </li>
+
+                                </ul>
+
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="section">
+
+                    <div class="wrapper">
+
+                        <div class="c-col-6 sm-12 self-center">
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h1 has-anim-text wordsUp">Our Partners <br>and Customers</p>
+
+                            </div>
+
+                            <div class="text-wrapper" style="--width: 50%">
+
+
+                                <p>Our track record speaks for itself, with numerous success stories and satisfied clients who have achieved remarkable results with our solutions.</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="c-col-6 sm-12 self-center mobile-align-left align-right">
+
+                            <div class="nayla-button underline icon-left text-h6" data-icon="arrow_forward">
+
+                                <a href="#">Connect with us.</a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="c-col-12">
+
+
+                            <div class="nayla-clients-grid bordered col-5">
+
+                                <div class="client">
+
+                                    <a href="#.">
+
+                                        <img src="img/client_1_dark.png">
+
+                                        <span class="client-caption">GEORGIA POWER</span>
+
+
+                                    </a>
+
+                                </div>
 
 
 
+                                <div class="client">
+
+                                    <a href="#.">
+
+                                        <img src="img/client_2_dark.png">
+
+                                        <span class="client-caption">CAPITAL ONE</span>
 
 
-  <main>
-    <article>
+                                    </a>
 
-      <!-- 
-        - #HERO
-      -->
+                                </div>
 
-      <section class="section hero has-bg-image" aria-label="home"
-        style="background-image: url('./assets/images/hero-bg.jpg')">
-        <div class="container">
 
-          <div class="hero-content">
 
-            <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
+                                <div class="client">
 
-            <p class="hero-text">
-              We’re a creative company that focuses on establishing long-term relationships with customers.
-            </p>
+                                    <a href="#.">
 
-            <div class="btn-wrapper">
+                                        <img src="img/client_3_dark.png">
 
-              <a href="#" class="btn btn-primary">Explore Now</a>
+                                        <span class="client-caption">GOOGLE</span>
 
-              <a href="#" class="btn btn-outline">Contact Us</a>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="client">
+
+                                    <a href="#.">
+
+                                        <img src="img/client_6_dark.png">
+
+
+                                        <span class="client-caption"></span>
+
+
+                                    </a>
+
+                                </div>
+
+                                <div class="client">
+
+                                    <a href="#.">
+
+                                        <img src="img/client_4_dark.png">
+
+                                        <span class="client-caption"></span>
+
+
+                                    </a>
+
+                                </div>
+
+                                <div class="client">
+
+                                    <a href="#.">
+
+                                        <img src="img/client_5_dark.png">
+
+                                        <span class="client-caption"></span>
+
+
+                                    </a>
+
+                                </div>
+
+                                <div class="client">
+
+                                    <a href="#.">
+
+                                        <img src="img/client_7_dark.png">
+
+                                        <span class="client-caption">
+                                            </span>
+
+
+                                    </a>
+
+                                </div>
+
+                                <div class="client">
+
+                                    <a href="#.">
+
+                                        <img src="img/client_8_dark.png">
+
+                                        <span class="client-caption"></span>
+
+
+                                    </a>
+
+                                </div>
+
+                                <div class="client">
+
+                                    <a href="#.">
+
+                                        <img src="img/client_9_dark.png">
+
+                                        <span class="client-caption"></span>
+
+
+                                    </a>
+
+                                </div>
+
+                                <div class="client">
+
+                                    <a href="#.">
+
+                                        <img src="img/client_14_dark.png">
+
+                                        <span class="client-caption"></span>
+
+
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="section fullscreen light">
+
+                    <div class="section-background" style="height: 120vh">
+
+                        <div class="single-image parallax-image" style="height: 100vh">
+
+                            <img src="img/home_corporate_1.jpg">
+
+                        </div>
+
+                    </div>
+
+                    <div class="wrapper-small no-margin">
+
+                        <div class="c-col-8 sm-12 no-gap no-margin">
+
+                            <span class="empty-space" style="height: 100px"></span>
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h1 has-anim-text linesUp">
+
+                                    Experience the power of innovation, reliability, and excellence.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="c-col-4 hide-mobile"></div>
+                        <div class="c-col-8 hide-mobile"></div>
+
+                        <div class="c-col-4 sm-12 no-gap no-margin">
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h6">Our expert team brings years of experience and cutting-edge knowledge to the table, delivering top-tier services that keep you ahead in today's competitive landscape. Our diverse range of offerings is designed to empower your growth.
+                                </p>
+
+                            </div>
+
+                            <span class="empty-space" style="height: 50px"></span>
+
+                            <div class="nayla-button underline icon-right text-h6" data-icon="arrow_outward">
+
+                                <a href="#">Experience the power of innovation.</a>
+
+                            </div>
+
+                            <span class="empty-space" style="height: 100px"></span>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="section">
+
+                    <div class="wrapper">
+
+                        <div class="c-col-4 sm-12">
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h6">OUR VALUES
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="c-col-8 sm-12">
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h3 has-anim-text linesUp">
+
+                                    Our team's synergy allows us to tackle complex challenges and deliver innovative solutions tailored to your specific needs.
+                                </p>
+
+                            </div>
+
+
+                            <div class="single-image has-anim-image slideDown">
+
+                                <img src="img/home_corporate_2.jpg">
+
+                            </div>
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h5">
+
+                                    Collaboration, communication, and creativity are the cornerstones of our team culture. We foster an environment that encourages open dialogue and idea-sharing, enabling us to generate groundbreaking strategies and solutions for our clients.
+
+                                </p>
+
+                            </div>
+
+                            <span class="empty-space" style="height: 100px"></span>
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h3 has-anim-text linesUp">
+                                    Rest assured, when you work with us, you're partnering with a team of passionate professionals who are dedicated to your success.
+
+                                </p>
+
+                            </div>
+
+                            <div class="single-image has-anim-image slideDown">
+
+                                <img src="img/home_corporate_3.jpg">
+
+                            </div>
+
+                        </div>
+
+                        <span class="empty-space" style="height: 100px"></span>
+
+                        <!-- <div class="c-col-12">
+
+                            <div class="nayla-marquee right-to-left" data-duration="7" data-seperator=" fiber_manual_record">
+
+                                <p class="text-h1">DESIGN & REPRODUCE
+                                </p>
+
+                            </div>
+
+                        </div> -->
+
+                    </div>
+
+                </div>
+
+                <div class="section anim-bg light" style="background: #1c1f24">
+
+                    <div class="wrapper">
+
+                        <div class="c-col-10 sm-12">
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h1 no-margin has-anim-text wordsUp">We are excited to embark on this journey.</p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="c-col-12">
+
+                            <div class="nayla-divider detect-pov"></div>
+
+                        </div>
+
+                        <div class="c-col-4 sm-12 self-center">
+
+                            <div class="text-wrapper">
+
+                                <h3>Perfect solutions for you.</h3>
+
+                                <p>Our team of experts is committed to providing top-notch solutions that elevate your business and drive tangible results. Explore our diverse range of services below.
+                                </p>
+
+                            </div>
+
+                            <span class="empty-space" style="height: 50px"></span>
+
+                            <div class="nayla-button underline icon-right text-h6" data-icon="arrow_outward">
+
+                                <a href="#">What we can do?.</a>
+
+                            </div>
+
+                            <span class="empty-space" style="height: 50px"></span>
+
+                            <div class="text-wrapper">
+
+
+                                <p class="text-h1 has-anim-text charsUp">SINCE 2020
+                                </p>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="c-col-2 hide-mobile"></div>
+
+                        <div class="c-col-6 sm-12">
+
+                            <div class="single-image">
+
+                                <img src="img/office_1.jpg">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="wrapper-full no-gap">
+
+                        <div class="c-col-12 no-gap">
+
+                            <div class="single-image parallax-image" style="height: 100vh">
+
+                                <img src="img/home_corporate_4.jpg">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="wrapper">
+
+                        <div class="c-col-6 sm-12">
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h1 no-margin has-anim-text wordsUp">Ready to take your business to the next level?
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="c-col-6 sm-12 align-bottom align-right">
+
+                            <div class="nayla-button underline icon-right text-h6" data-icon="arrow_outward">
+
+                                <a href="#">Explore the services.</a>
+
+                            </div>
+                        </div>
+
+                        <div class="c-col-12">
+
+                            <div class="nayla-divider detect-pov" style="width: 100%"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="wrapper">
+
+                        <div class="c-col-6 pinned sm-12" data-pin="#pin1">
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h6">FAQs
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="c-col-6 sm-12" id="pin1">
+
+                            <!--Accordion Small-->
+                            <div class="nayla-accordion" data-duration="0.5" data-animation="wordsUp" data-toggle-icon="add">
+
+                                <ul class="accordion-wrap">
+
+                                    <li class="accordion-item">
+
+                                        <div class="accordion-title text-h4">How do solar panels work?</div>
+
+                                        <div class="accordion-content">
+
+                                            <p class="text-h6">Solar panels convert sunlight into electricity using photovoltaic (PV) cells. When sunlight hits these cells, it knocks electrons loose from their atoms, generating a flow of electricity.</p>
+
+                                        </div>
+                                    </li>
+
+                                    <li class="accordion-item">
+
+                                        <div class="accordion-title text-h4">What are the benefits of using solar power?</div>
+
+                                        <div class="accordion-content">
+
+                                            <p class="text-h6">Benefits include reduced electricity bills, lower carbon footprint, energy independence, low maintenance costs, and potential increase in property value.</p>
+
+                                        </div>
+                                    </li>
+
+                                    <li class="accordion-item">
+                                        <div class="accordion-title text-h4">How much does it cost to install solar panels?</div>
+
+                                        <div class="accordion-content">
+
+                                            <p class="text-h6">The cost varies depending on factors like system size, location, and available incentives.</p>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li class='accordion-item'>
+
+                                        <div class="accordion-title text-h4">How long do solar panels last?</div>
+
+                                        <div class="accordion-content">
+
+                                            <p class="text-h6">Most solar panels come with a warranty of 25-30 years, but they can last much longer with proper maintenance. Their efficiency might decrease slightly over time.</p>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li class='accordion-item'>
+
+                                        <div class="accordion-title text-h4">Do solar panels work in cloudy or rainy weather?</div>
+
+                                        <div class="accordion-content">
+                                            <p class="text-h6">Yes, solar panels can still generate electricity on cloudy or rainy days, but their efficiency is reduced compared to sunny days.</p>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li class='accordion-item'>
+
+                                        <div class="accordion-title text-h4">What happens to solar power at night or during cloudy days?</div>
+
+                                        <div class="accordion-content">
+
+                                            <p class="text-h6">Solar panels do not produce electricity at night. To have a continuous power supply, systems often include battery storage or are connected to the grid to draw power when solar production is low.</p>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li class='accordion-item'>
+
+                                        <div class="accordion-title text-h4">How much maintenance do solar panels require?</div>
+
+                                        <div class="accordion-content">
+
+                                            <p class="text-h6">Solar panels require very little maintenance. Regular cleaning and periodic checks to ensure they are functioning correctly are typically sufficient.</p>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li class='accordion-item'>
+
+                                        <div class="accordion-title text-h4">Can solar panels completely power a home?</div>
+
+                                        <div class="accordion-content">
+
+                                            <p class="text-h6">Yes, a properly sized and installed solar panel system can generate enough electricity to power a home, especially when combined with energy-efficient appliances and practices.</p>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li class='accordion-item'>
+
+                                        <div class="accordion-title text-h4">What incentives are available for installing solar panels?</div>
+
+                                        <div class="accordion-content">
+
+                                            <p class="text-h6">Incentives vary by location but can include federal tax credits, state rebates, net metering policies, and other financial incentives aimed at reducing the upfront cost of solar installation.</p>
+
+                                        </div>
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="section">
+
+                    <div class="wrapper">
+
+                        <div class="c-col-8 sm-12">
+
+                            <div class="text-wrapper">
+
+                                <p class="text-h2">Reach out to our expert team to discuss how our services can benefit you. We are here to guide you through every step of the process and help you make informed decisions that drive success.</p>
+
+                            </div>
+
+                            <div class="nayla-button underline icon-right text-h6" data-icon="arrow_outward">
+
+                                <a href="#">Explore what’s possible.</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!--/ Page Content -->
+
+        </main>
+        <!--/ Main -->
+
+
+        <!-- Footer -->
+        <div id="footer" class="site-footer">
+
+            <div class="footer-wrapper">
+
+                <!-- Footer Top Wrapper -->
+                <div class="wrapper footer-top-wrapper">
+
+                    <div class="c-col-3 sm-12">
+
+                        <!-- Footer Logo -->
+                        <div class="single-image" style="width: 50px">
+
+                            <img alt="Single Image" src="img/site_emblem_dark.png">
+
+                        </div>
+                        <!--/ Footer Logo -->
+
+                    </div>
+
+                    <div class="c-col-6 sm-12">
+
+                        <!-- Text Wrapper -->
+                        <div class="text-wrapper">
+
+                            <p class="text-h2">Join the revolution.
+                                <br><a href="mailto:theblacktablellc@proton.me">theblacktablellc@proton.me</a>
+                            </p>
+
+                        </div>
+                        <!--/ Text Wrapper -->
+
+                    </div>
+
+                    <div class="c-col-3 sm-6 hide-mobile">
+
+                        <!-- Text -->
+                        <div class="text-wrapper align-right">
+
+                            <p>Follow Us</p>
+
+                        </div>
+                        <!--/ Text -->
+
+                        <!-- Menu -->
+                        <ul class="menu text-h6 align-right">
+
+                            <li><a href="#.">Facebook</a></li>
+                            <li><a href="#.">Instagram</a></li>
+                            <li><a href="#.">Twitter</a></li>
+                            <li><a href="#.">Linkedin</a></li>
+
+                        </ul>
+                        <!--/ Menu -->
+
+                    </div>
+
+                </div>
+                <!--/ Footer Top Wrapper -->
+
+                <!-- Footer Bottom Wrapper -->
+                <div class="wrapper footer-bottom-wrapper">
+
+                    <div class="c-col-3 sm-12">
+
+                        <!-- Copyright -->
+                        <div class="text-wrapper">
+
+                            <p>© 2024</p>
+
+                        </div>
+                        <!--/ Copyright -->
+
+                    </div>
+                    <div class="c-col-3 sm-12">
+
+                        <!-- Menu -->
+                        <ul class="menu">
+
+                            <li><a href="#.">Learn</a></li>
+                            <li><a href="#.">Support</a></li>
+                            <li><a href="#.">Careers</a></li>
+
+                        </ul>
+                        <!--/ Menu -->
+
+
+                    </div>
+                    <div class="c-col-3 sm-6">
+
+
+                        <!-- Text -->
+                        <div class="text-wrapper no-margin">
+
+                            <p class="no-margin">3379 Peachtree Rd NE,
+                                <br>Atlanta, GA 30326
+                            </p>
+
+                        </div>
+                        <!--/ Text -->
+
+
+                    </div>
+
+                    <div class="c-col-3 sm-6">
+
+                        <!-- Scroll Top Icon -->
+                        <div class="nayla-icon align-right scroll-button" data-scroll-to=0 style="--fontSize: 75px;--wgt: 300">
+                            <span class="material-icons">
+                                arrow_upward
+                            </span>
+
+                        </div>
+                        <!--/ Scroll Top Icon -->
+
+                    </div>
+
+                </div>
+                <!--/ Footer Bottom Wrapper -->
 
             </div>
 
-          </div>
-
-          <div class="hero-slider" data-slider>
-
-            <div class="slider-inner">
-              <ul class="slider-container" data-slider-container>
-
-                <li class="slider-item">
-
-                  <figure class="img-holder" style="--width: 575; --height: 550;">
-                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
-                  </figure>
-
-                </li>
-
-                <li class="slider-item">
-
-                  <div class="hero-card">
-                    <figure class="img-holder" style="--width: 575; --height: 550;">
-                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
-                        class="img-cover">
-                    </figure>
-
-                    <button class="play-btn" aria-label="play adex intro">
-                      <ion-icon name="play" aria-hidden="true"></ion-icon>
-                    </button>
-                  </div>
-
-                </li>
-
-                <li class="slider-item">
-
-                  <figure class="img-holder" style="--width: 575; --height: 550;">
-                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
-                  </figure>
-
-                </li>
-
-              </ul>
-            </div>
-
-            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
-              <ion-icon name="arrow-back"></ion-icon>
-            </button>
-
-            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
-              <ion-icon name="arrow-forward"></ion-icon>
-            </button>
-
-          </div>
-
         </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
-
-      <section class="section service" aria-labelledby="service-label">
-        <div class="container">
-
-          <p class="section-subtitle" id="service-label">What We Do?</p>
-
-          <h2 class="h2 section-title">
-            The service we offer is specifically designed to meet your needs.
-          </h2>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <h3 class="h4 card-title">24/7 Support</h3>
-
-                <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <h3 class="h4 card-title">Secure Payments</h3>
-
-                <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <h3 class="h4 card-title">Daily Updates</h3>
-
-                <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <h3 class="h4 card-title">Market Research</h3>
-
-                <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="about" aria-labelledby="about-label">
-        <div class="container">
-
-          <figure class="about-banner">
-            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
-              class="w-100">
-          </figure>
-
-          <div class="about-content">
-
-            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
-
-            <h2 class="h2 section-title">
-              We bring solutions to make life easier for our clients.
-            </h2>
-
-            <ul>
-
-              <li class="about-item">
-                <div class="accordion-card expanded" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">Professional Design</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
-                  </p>
-
-                </div>
-              </li>
-
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">Top-Notch Support</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
-                  </p>
-
-                </div>
-              </li>
-
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">Exclusive Assets</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
-                  </p>
-
-                </div>
-              </li>
-
-            </ul>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #FEATURE
-      -->
-
-      <section class="section feature" aria-labelledby="feature-label">
-        <div class="container">
-
-          <figure class="feature-banner">
-            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
-              class="w-100">
-          </figure>
-
-          <div class="feature-content">
-
-            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
-
-            <h2 class="h2 section-title">
-              We make your spending stress-free for you to have the perfect control.
-            </h2>
-
-            <p class="section-text">
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus.
-            </p>
-
-            <ul class="feature-list">
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Aenean quam ornare. Curabitur blandit.
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Nullam quis risus eget urna mollis ornare.
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Etiam porta euismod malesuada mollis.
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Vivamus sagittis lacus vel augue rutrum.
-                  </span>
-
-                </div>
-              </li>
-
-            </ul>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #STATS
-      -->
-
-      <section class="stats" aria-label="our stats">
-        <div class="container">
-
-          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
-
-            <li>
-              <p class="card-text">
-                <span class="h1">7518</span>
-
-                <spna class="span">Completed Projects</spna>
-              </p>
-            </li>
-
-            <li>
-              <p class="card-text">
-                <span class="h1">3472</span>
-
-                <spna class="span">Happy Customers</spna>
-              </p>
-            </li>
-
-            <li>
-              <p class="card-text">
-                <span class="h1">2184</span>
-
-                <spna class="span">Expert Employees</spna>
-              </p>
-            </li>
-
-            <li>
-              <p class="card-text">
-                <span class="h1">4523</span>
-
-                <spna class="span">Awards Won</spna>
-              </p>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #PROJECT
-      -->
-
-      <section class="section project" aria-labelledby="project-label">
-        <div class="container">
-
-          <p class="section-subtitle" id="project-label">Case Studies</p>
-
-          <h2 class="h2 section-title">
-            Check out some of our awesome projects with creative ideas and great design.
-          </h2>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy"
-                    alt="Ligula tristique quis risus" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Ligula tristique quis risus</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Coding</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy"
-                    alt="Nullam id dolor elit id nibh" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Nullam id dolor elit id nibh</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Workspace</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy"
-                    alt="Ultricies fusce porta elit" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Ultricies fusce porta elit</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-02-26">26 Feb 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Meeting</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #CTA
-      -->
-
-      <section class="cta" aria-label="call to action">
-        <div class="container">
-
-          <h2 class="h2 section-title">
-            Join our community by using our services and grow your business.
-          </h2>
-
-          <a href="#" class="btn btn-primary">Try it For Free</a>
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer">
-    <div class="container grid-list">
-
-      <div class="footer-brand">
-
-        <a href="#" class="logo">
-          <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home">
-        </a>
-
-        <p class="footer-text">
-          &copy; 2022 codewithsadee. <br> All rights reserved.
-        </p>
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-dribbble"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Get in Touch</p>
-        </li>
-
-        <li>
-          <address class="footer-text">
-            Moonshine St. 14/05 Light City, London, United Kingdom
-          </address>
-        </li>
-
-        <li>
-          <a href="mailto:info@email.com" class="footer-link">info@email.com</a>
-        </li>
-
-        <li>
-          <a href="tel:001234567890" class="footer-link">00 (123) 456 78 90</a>
-        </li>
-
-      </ul>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Learn More</p>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">About Us</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Our Story</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Projects</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Terms of Use</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
-        </li>
-
-      </ul>
-
-      <div class="footer-list">
-
-        <p class="h4 footer-list-title">Our Newsletter</p>
-
-        <p class="footer-text">
-          Subscribe to our newsletter to get our news & deals delivered to you.
-        </p>
-
-        <form action="" class="input-wrapper">
-          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
-
-          <button type="submit" class="submit-btn">Join</button>
-        </form>
-
-      </div>
+        <!--/ Footer -->
 
     </div>
-  </footer>
+    <!--/ Page -->
 
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!-- 
-    - ionicon
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/barba.min.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
-
-</html>
